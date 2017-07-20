@@ -28,6 +28,8 @@
 
     /*Gradients*/
     --bg-linear-gray:linear-gradient(-226deg, #545454 0%, #29292A 100%);
+    --bg-linear-secondary:radial-gradient(50% 100%, #C4CEDF 50%, #D5DBE7 100%);
+
 
     /*Define grid stuff here for both mobile and desktop */
     /*Grids*/
@@ -44,6 +46,29 @@
     /*Layout*/
     --nav-height-mobile:80px;
     --mobile-padding-LR:10px;
+}
+
+
+html {
+    font-size: 16px;
+}
+
+@media(min-width:700px) {
+    html {
+        font-size: 17px;
+    }
+}
+
+@media(min-width:900px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media(min-width:1200px) {
+    html {
+        font-size: 20px;
+    }
 }
 
 html, body
